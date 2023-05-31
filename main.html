@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+
 
 <html>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
+<head> 
+	<link rel="stylesheet" href="styles.css"/>
+	
+		 
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-	<header>
-		<center><h1>MyBookList</h1></center>
-	</header>
-	<body>
+		<header>
+		<span>My</span><span id="book">Book</span><span>List</span>
+		</header>
+		
 		<div class="form-group">
 			<label for="title">Title</label><br>
 			<input type="text" id="title" ><br>
@@ -22,10 +21,21 @@
 			<input type="text" id="author" ><br>
 			<label for="isbn">ISBN#</label><br>
 			<input type="text" id="isbn"><br>
-			<input type="submit" id="submit">
-			
+			<button type="submit"  onclick="create()" id="submit" >Add Book</button>		
 		</div>
-	</body>
+		<div>
+			<table class="table table-striped">
+				<thead> 
+					<th>Title</th>
+					<th>Author</th>
+					<th>ISBN#</th>
+				</thead>
+				<tbody id="book-list">
+				</tbody>
+			</table> 
+		</div>
+	 <script type="text/javascript" src="./script.js"></script>
+	 
 </body>
 
 </html>

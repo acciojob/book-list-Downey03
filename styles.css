@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+header{
+	margin:auto;
+	width:50%;
+	
+}
+#book{
+	color:#1972F5;
+}
+span{
+	font-weight:100;
+	font-size:40px;
+	font-family:serif;
+}
+
+.form-group{
+	margin:auto;
+	
+}
+button{
+	border-radius:4px;
+	background-color:#1972F5;
+	color:white;
+	padding:8px 15px;
+	outline:2px solid transparent;
+}
+.form-group input{
+	width:100%;
+	padding:5px;
+	margin-bottom:8px;
+}  
+table{
+	width:100%;
+}
+thead{
+	outline-bottom:3px solid black;
+}
+
+tbody td{
+	background-color:lightgray;
+}
